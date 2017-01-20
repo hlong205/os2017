@@ -1,0 +1,19 @@
+truonglong205@Thlong:~$ ls | grep "list"
+list of things to do Tet holiday
+Music list
+Web list
+truonglong205@Thlong:~$ wc --lines /etc/passwd
+40 /etc/passwd
+truonglong205@Thlong:~$ free --total
+              total        used        free      shared  buff/cache   available
+Mem:        3939532     1430164     1335876      197532     1173492     2043280
+Swap:       4086780           0     4086780
+Total:      8026312     1430164     5422656
+truonglong205@Thlong:~$ lscpu | grep "CPU(s)"
+CPU(s):                4
+On-line CPU(s) list:   0-3
+NUMA node0 CPU(s):     0-3
+truonglong205@Thlong:~$ cd ~/Pictures
+truonglong205@Thlong:~/Pictures$ find | grep .jpg
+./9Gag.jpg
+
