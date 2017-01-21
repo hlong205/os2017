@@ -1,0 +1,260 @@
+truonglong205@Thlong:~$ ps -e
+  PID TTY          TIME CMD
+    1 ?        00:00:01 systemd
+    2 ?        00:00:00 kthreadd
+    3 ?        00:00:00 ksoftirqd/0
+    5 ?        00:00:00 kworker/0:0H
+    7 ?        00:00:00 rcu_sched
+    8 ?        00:00:00 rcu_bh
+    9 ?        00:00:00 migration/0
+   10 ?        00:00:00 watchdog/0
+   11 ?        00:00:00 watchdog/1
+   12 ?        00:00:00 migration/1
+   13 ?        00:00:00 ksoftirqd/1
+   15 ?        00:00:00 kworker/1:0H
+   16 ?        00:00:00 watchdog/2
+   17 ?        00:00:00 migration/2
+   18 ?        00:00:00 ksoftirqd/2
+   20 ?        00:00:00 kworker/2:0H
+   21 ?        00:00:00 watchdog/3
+   22 ?        00:00:00 migration/3
+   23 ?        00:00:00 ksoftirqd/3
+   24 ?        00:00:00 kworker/3:0
+   25 ?        00:00:00 kworker/3:0H
+   26 ?        00:00:00 kdevtmpfs
+   27 ?        00:00:00 netns
+   28 ?        00:00:00 perf
+   29 ?        00:00:00 khungtaskd
+   30 ?        00:00:00 writeback
+   31 ?        00:00:00 ksmd
+   32 ?        00:00:00 khugepaged
+   33 ?        00:00:00 crypto
+   34 ?        00:00:00 kintegrityd
+   35 ?        00:00:00 bioset
+   36 ?        00:00:00 kblockd
+   37 ?        00:00:00 ata_sff
+   38 ?        00:00:00 md
+   39 ?        00:00:00 devfreq_wq
+   43 ?        00:00:00 kswapd0
+   45 ?        00:00:00 vmstat
+   46 ?        00:00:00 fsnotify_mark
+   47 ?        00:00:00 ecryptfs-kthrea
+   63 ?        00:00:00 kthrotld
+   64 ?        00:00:00 acpi_thermal_pm
+   65 ?        00:00:00 kworker/u16:2
+   66 ?        00:00:01 kworker/1:1
+   67 ?        00:00:00 bioset
+   68 ?        00:00:00 bioset
+   69 ?        00:00:00 bioset
+   70 ?        00:00:00 bioset
+   71 ?        00:00:00 bioset
+   72 ?        00:00:00 bioset
+   73 ?        00:00:00 bioset
+   74 ?        00:00:00 bioset
+   75 ?        00:00:00 bioset
+   76 ?        00:00:00 bioset
+   77 ?        00:00:00 bioset
+   78 ?        00:00:00 bioset
+   79 ?        00:00:00 bioset
+   80 ?        00:00:00 bioset
+   81 ?        00:00:00 bioset
+   82 ?        00:00:00 bioset
+   83 ?        00:00:00 bioset
+   84 ?        00:00:00 bioset
+   85 ?        00:00:00 bioset
+   86 ?        00:00:00 bioset
+   87 ?        00:00:00 bioset
+   88 ?        00:00:00 bioset
+   89 ?        00:00:00 bioset
+   90 ?        00:00:00 bioset
+   94 ?        00:00:00 ipv6_addrconf
+  107 ?        00:00:00 deferwq
+  108 ?        00:00:00 charger_manager
+  149 ?        00:00:00 kpsmoused
+  150 ?        00:00:00 scsi_eh_0
+  151 ?        00:00:00 scsi_tmf_0
+  152 ?        00:00:00 scsi_eh_1
+  153 ?        00:00:00 scsi_tmf_1
+  154 ?        00:00:00 scsi_eh_2
+  155 ?        00:00:00 scsi_tmf_2
+  159 ?        00:00:00 rtsx_pci_sdmmc_
+  164 ?        00:00:00 ttm_swap
+  165 ?        00:00:00 bioset
+  166 ?        00:00:00 bioset
+  169 ?        00:00:00 kworker/1:1H
+  194 ?        00:00:00 jbd2/sda8-8
+  195 ?        00:00:00 ext4-rsv-conver
+  230 ?        00:00:00 systemd-journal
+  233 ?        00:00:00 kauditd
+  248 ?        00:00:00 kworker/2:1H
+  267 ?        00:00:00 systemd-udevd
+  336 ?        00:00:00 irq/51-mei_me
+  340 ?        00:00:00 kworker/3:1H
+  342 ?        00:00:00 kworker/0:1H
+  375 ?        00:00:00 kmemstick
+  413 ?        00:00:00 cfg80211
+  497 ?        00:00:00 wl_event_handle
+  709 ?        00:00:00 systemd-timesyn
+  862 ?        00:00:00 whoopsie
+  877 ?        00:00:00 cron
+  880 ?        00:00:00 acpid
+  884 ?        00:00:00 dbus-daemon
+  932 ?        00:00:00 thermald
+  934 ?        00:00:00 snapd
+  944 ?        00:00:00 rsyslogd
+  956 ?        00:00:00 NetworkManager
+  958 ?        00:00:00 systemd-logind
+  960 ?        00:00:00 avahi-daemon
+  963 ?        00:00:00 accounts-daemon
+  971 ?        00:00:00 ModemManager
+ 1039 ?        00:00:00 avahi-daemon
+ 1047 ?        00:00:00 cups-browsed
+ 1056 ?        00:00:00 lightdm
+ 1061 ?        00:00:00 irqbalance
+ 1078 ?        00:00:00 polkitd
+ 1092 tty7     00:00:24 Xorg
+ 1117 tty1     00:00:00 agetty
+ 1130 ?        00:00:00 wpa_supplicant
+ 1192 ?        00:00:00 lightdm
+ 1210 ?        00:00:00 upowerd
+ 1242 ?        00:00:00 rtkit-daemon
+ 1280 ?        00:00:00 colord
+ 1330 ?        00:00:00 kworker/2:0
+ 1331 ?        00:00:00 kworker/u16:0
+ 1339 ?        00:00:00 systemd
+ 1342 ?        00:00:00 (sd-pam)
+ 1348 ?        00:00:00 gnome-keyring-d
+ 1350 ?        00:00:00 upstart
+ 1388 ?        00:00:00 dhclient
+ 1442 ?        00:00:00 upstart-udev-br
+ 1443 ?        00:00:00 dbus-daemon
+ 1455 ?        00:00:00 window-stack-br
+ 1478 ?        00:00:03 ibus-daemon
+ 1488 ?        00:00:00 upstart-dbus-br
+ 1489 ?        00:00:00 upstart-dbus-br
+ 1503 ?        00:00:00 upstart-file-br
+ 1511 ?        00:00:00 gvfsd
+ 1516 ?        00:00:00 gvfsd-fuse
+ 1526 ?        00:00:00 ibus-dconf
+ 1527 ?        00:00:00 gpg-agent
+ 1529 ?        00:00:01 ibus-ui-gtk3
+ 1531 ?        00:00:00 ibus-x11
+ 1542 ?        00:00:00 at-spi-bus-laun
+ 1548 ?        00:00:00 dbus-daemon
+ 1550 ?        00:00:00 at-spi2-registr
+ 1553 ?        00:00:00 ibus-engine-sim
+ 1562 ?        00:00:00 bamfdaemon
+ 1576 ?        00:00:00 hud-service
+ 1578 ?        00:00:00 unity-settings-
+ 1594 ?        00:00:00 gnome-session-b
+ 1599 ?        00:00:00 unity-panel-ser
+ 1607 ?        00:00:00 syndaemon
+ 1611 ?        00:00:00 pulseaudio
+ 1621 ?        00:00:00 dconf-service
+ 1632 ?        00:00:00 indicator-messa
+ 1633 ?        00:00:00 indicator-bluet
+ 1634 ?        00:00:00 indicator-power
+ 1637 ?        00:00:00 indicator-datet
+ 1641 ?        00:00:00 indicator-keybo
+ 1642 ?        00:00:00 indicator-sound
+ 1643 ?        00:00:00 indicator-print
+ 1644 ?        00:00:00 indicator-sessi
+ 1688 ?        00:00:00 indicator-appli
+ 1690 ?        00:00:00 evolution-sourc
+ 1722 ?        00:00:00 dnsmasq
+ 1779 ?        00:00:01 nautilus
+ 1781 ?        00:00:00 polkit-gnome-au
+ 1782 ?        00:00:02 gnome-software
+ 1787 ?        00:00:00 unity-fallback-
+ 1899 ?        00:00:00 nm-applet
+ 1910 ?        00:00:00 gvfs-udisks2-vo
+ 1918 ?        00:00:00 udisksd
+ 1927 ?        00:00:00 gvfs-gphoto2-vo
+ 1928 ?        00:00:16 compiz
+ 1933 ?        00:00:00 gvfs-mtp-volume
+ 1938 ?        00:00:00 gvfs-afc-volume
+ 1944 ?        00:00:00 gvfs-goa-volume
+ 1955 ?        00:00:00 evolution-calen
+ 1965 ?        00:00:00 fwupd
+ 1970 ?        00:00:00 gvfsd-trash
+ 1991 ?        00:00:00 evolution-calen
+ 2001 ?        00:00:00 evolution-addre
+ 2003 ?        00:00:00 evolution-calen
+ 2022 ?        00:00:00 evolution-addre
+ 2035 ?        00:00:00 kworker/0:0
+ 2066 ?        00:00:00 zeitgeist-datah
+ 2073 ?        00:00:00 sh
+ 2077 ?        00:00:00 zeitgeist-daemo
+ 2084 ?        00:00:00 zeitgeist-fts
+ 2190 ?        00:00:00 update-notifier
+ 2234 ?        00:00:00 gconfd-2
+ 2287 ?        00:00:00 deja-dup-monito
+ 2652 ?        00:00:00 kworker/2:2
+ 2665 ?        00:00:00 kworker/0:2
+ 2673 ?        00:00:00 kworker/1:2
+ 2674 ?        00:00:00 kworker/3:2
+ 2675 ?        00:00:00 kworker/u16:1
+ 2776 ?        00:00:01 gnome-terminal-
+ 2783 pts/2    00:00:00 bash
+ 2797 ?        00:00:00 kworker/2:1
+ 2829 pts/17   00:00:00 bash
+ 2840 pts/17   00:00:00 ps
+truonglong205@Thlong:~$ gnome-calculator &
+[1] 2841
+truonglong205@Thlong:~$ ps -e | grep gnome-calculato
+ 2841 pts/17   00:00:00 gnome-calculato
+truonglong205@Thlong:~$ cat /proc/2841/status
+Name:	gnome-calculato
+State:	S (sleeping)
+Tgid:	2841
+Ngid:	0
+Pid:	2841
+PPid:	2829
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	256
+Groups:	4 24 27 30 46 113 128 1000 
+NStgid:	2841
+NSpid:	2841
+NSpgid:	2841
+NSsid:	2829
+VmPeak:	  698384 kB
+VmSize:	  632980 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	   34132 kB
+VmRSS:	   34132 kB
+VmData:	  374232 kB
+VmStk:	     136 kB
+VmExe:	     392 kB
+VmLib:	   59652 kB
+VmPTE:	     496 kB
+VmPMD:	      12 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+Threads:	4
+SigQ:	0/14969
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000001000
+SigCgt:	0000000180000000
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+Seccomp:	0
+Cpus_allowed:	ff
+Cpus_allowed_list:	0-7
+Mems_allowed:	00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	285
+nonvoluntary_ctxt_switches:	86
+truonglong205@Thlong:~$ kill -stop 2841
+
+[1]+  Stopped                 gnome-calculator
+truonglong205@Thlong:~$ kill -cont 2841
+truonglong205@Thlong:~$ kill -kill 2841
+
