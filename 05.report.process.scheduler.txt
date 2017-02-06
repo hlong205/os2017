@@ -1,0 +1,62 @@
+truonglong205@Thlong:~$ cat /proc/sched_debug | grep systemd
+         systemd     1       322.442240      2995   120        81.067076      1865.551717   9434797.211107 0 0 /autogroup-2
+         systemd  1424        24.948550         9   120         3.060320        28.743345     43305.639747 0 0 /autogroup-103
+ systemd-journal   246        51.767729       857   120        62.094946       293.694100   9369351.765328 0 0 /autogroup-9
+  systemd-logind   920        34.267901       550   120        28.666722        81.095574   9405669.226098 0 0 /autogroup-57
+   systemd-udevd   267       900.151731       631   120        99.852030       679.890136   9427618.657372 0 0 /autogroup-12
+ systemd-timesyn   774        25.988548      1803   120         0.683591       205.766263   9346187.000136 0 0 /autogroup-37
+truonglong205@Thlong:~$ cat /proc/1/sched
+systemd (1, #threads: 1)
+-------------------------------------------------------------------
+se.exec_start                                :       9496801.359596
+se.vruntime                                  :           322.586488
+se.sum_exec_runtime                          :          1865.695965
+se.statistics.sum_sleep_runtime              :       9494793.664267
+se.statistics.wait_start                     :             0.000000
+se.statistics.sleep_start                    :       9496801.359596
+se.statistics.block_start                    :             0.000000
+se.statistics.sleep_max                      :        120077.561996
+se.statistics.block_max                      :           289.238604
+se.statistics.exec_max                       :             7.719340
+se.statistics.slice_max                      :             3.948623
+se.statistics.wait_max                       :             4.946222
+se.statistics.wait_sum                       :            81.067076
+se.statistics.wait_count                     :                 3017
+se.statistics.iowait_sum                     :          2204.285064
+se.statistics.iowait_count                   :                  308
+se.nr_migrations                             :                  233
+se.statistics.nr_migrations_cold             :                    0
+se.statistics.nr_failed_migrations_affine    :                    0
+se.statistics.nr_failed_migrations_running   :                  292
+se.statistics.nr_failed_migrations_hot       :                   84
+se.statistics.nr_forced_migrations           :                    2
+se.statistics.nr_wakeups                     :                 2574
+se.statistics.nr_wakeups_sync                :                  118
+se.statistics.nr_wakeups_migrate             :                  212
+se.statistics.nr_wakeups_local               :                  346
+se.statistics.nr_wakeups_remote              :                 2228
+se.statistics.nr_wakeups_affine              :                 1040
+se.statistics.nr_wakeups_affine_attempts     :                 1626
+se.statistics.nr_wakeups_passive             :                    0
+se.statistics.nr_wakeups_idle                :                    0
+avg_atom                                     :             0.622728
+avg_per_cpu                                  :             8.007278
+nr_switches                                  :                 2996
+nr_voluntary_switches                        :                 2575
+nr_involuntary_switches                      :                  421
+se.load.weight                               :                 1024
+se.avg.load_sum                              :               143360
+se.avg.util_sum                              :               143360
+se.avg.load_avg                              :                    0
+se.avg.util_avg                              :                    0
+se.avg.last_update_time                      :        9496801359596
+policy                                       :                    0
+prio                                         :                  120
+clock-delta                                  :                  141
+mm->numa_scan_seq                            :                    0
+numa_pages_migrated                          :                    0
+numa_preferred_nid                           :                   -1
+total_numa_faults                            :                    0
+current_node=0, numa_group_id=0
+numa_faults node=0 task_private=0 task_shared=0 group_private=0 group_shared=0
+
