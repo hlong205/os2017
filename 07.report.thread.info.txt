@@ -1,0 +1,8 @@
+truonglong205@Thlong:~$ ps -e | grep "firefox"
+ 2511 ?        00:03:37 firefox
+truonglong205@Thlong:~$ ps -o nlwp 2511
+NLWP
+  48
+truonglong205@Thlong:~$ ls /proc/2511/task | wc -l
+48
+
