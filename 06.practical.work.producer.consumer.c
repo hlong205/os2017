@@ -42,19 +42,19 @@ no2.type = '1';
 no2.amount = 9;
 no2.unit = '1';
 
-printf("first = %d, last = %d\n\n", first, last);
+printf("\nfirst = %d, \nlast = %d", first, last);
 
-printf("item no1: %c, %d, %c\n", no1.type, no1.amount, no1.unit);
+printf("item no1: %c,%d,%c\n",no1.type,no1.amount,no1.unit);
 produce(&no1);
-printf("\nAfter produce item no1: \nfirst = %d, \nlast=%d",first,last);
+printf("\nAfter produce item no1: \nfirst = %d \nlast=%d",first,last);
 
-printf("item no2: %c, %d, %c\n", no2.type, no2.amount, no2.unit);
+printf("item no2: %c,%d,%c\n",no2.type,no2.amount,no2.unit);
 produce(&no2);
-printf("\nAfter produce item no2: \nfirst = %d, \nlast=%d",first,last);
+printf("\nAfter produce item no2: \nfirst = %d \nlast=%d",first,last);
 
 
 item *itemconsumed = consume();
-printf("Consumed item: %c, %d, %c \nfirst = %d, \nlast=%d", itemconsumed->type, itemconsumed->amount, itemconsumed->unit, first, last);
+printf("Consumed item: %c, %d, %c \nfirst = %d \nlast=%d", itemconsumed->type, itemconsumed->amount, itemconsumed->unit, first, last);
 return 0;
 }
 

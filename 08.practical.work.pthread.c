@@ -49,19 +49,19 @@ no3.type = '2';
 no3.amount = 8;
 no3.unit = '1';
 
-printf("first = %d, last = %d\n\n", first, last);
+printf("\nfirst = %d, \nlast = %d", first, last);
 
-printf("1st item: %c, %d, %c\n", no1.type, no1.amount, no1.unit);
+printf("Item no1:%c,%d,%c\n", no1.type, no1.amount, no1.unit);
 produce(&no1);
-printf("After produce:\tItem no1: %c, %d, %c\tfirst = %d, last=%d\n\n", no1.type, no1.amount, no1.unit, first, last);
+printf("\nAfter produce item no1: \nfirst = %d, \nlast=%d",first, last);
 
-printf("2nd item: %c, %d, %c\n", no2.type, no2.amount, no2.unit);
+printf("Item no2:%c,%d,%c\n", no2.type, no2.amount, no2.unit);
 produce(&no2);
-printf("After produce:\tItem no2: %c, %d, %c\tfirst = %d, last=%d\n\n", no2.type, no2.amount, no2.unit, first, last);
+printf("\nAfter produce item no2: \nfirst = %d, \nlast=%d",first, last);
 
-printf("3rd item: %c, %d, %c\n", no3.type, no3.amount, no3.unit);
+printf("Item no3:%c,%d,%c\n", no3.type, no3.amount, no3.unit);
 produce(&no2);
-printf("After produce:\tItem no3: %c, %d, %c\tfirst = %d, last=%d\n\n", no3.type, no3.amount, no3.unit, first, last);
+printf("\nAfter produce item no3: \nfirst = %d, \nlast=%d",first, last);
 
 pthread_t id1, id2;
 pthread_create(&id1,NULL,produce,NULL);
